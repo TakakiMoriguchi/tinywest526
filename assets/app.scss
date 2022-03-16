@@ -1,0 +1,173 @@
+.appBar{
+  .siteTitle{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .siteTitle img{
+    margin-right: .25rem;
+  }
+
+  .siteTitle h1{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  .aboutChild{
+    font-size: .75rem;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+
+  .closeButton{
+    padding: .5rem;
+    display: flex;
+    justify-content: end;  
+  }
+
+  .batsu {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .batsu::before, .batsu::after { /* 共通設定 */
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px; /* 棒の幅（太さ） */
+    height: 30px; /* 棒の高さ */
+    background: #fff;
+  }
+  
+  .batsu::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+  
+  .batsu::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+}
+
+.jumboTron{
+  padding: 0;
+  background-image: url('/images/jumbotron.jpg');
+  background-position: center;
+  height: 100vh;
+}
+
+.sub_contents_title {
+  text-align: center;
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #333;
+  border-image: linear-gradient(to right, #333, #fff,  #333);
+  border-image-slice: 1;
+}
+
+.about_wrapper{
+  .card-style{
+    border-radius: .75rem !important;
+
+    .card-content{
+      background-color: rgb(0, 0, 0, .6);
+      padding-bottom: 12px;
+      text-shadow: 1px 1px 2px #000;
+
+      .v-card__subtitle{
+        color: #aaa;
+      }
+
+      .v-card__text{
+        font-size: .75rem;
+        padding: 0 1rem .25rem 1rem;
+      }
+
+      .card-link{
+        text-decoration: none;
+        padding: 0 8px;
+        color: #fff;
+        margin: 0 0 0 auto;
+    
+        hr{
+          height: 2px;
+          background-color:#ffc400;
+          border: none;
+        }
+      }
+    
+      .card-link:hover{
+        color: #ffc400;
+        overflow: hidden;
+
+        i{
+          color: #ffc400;
+        }
+
+        hr{
+          transition-delay: 0;
+          transition-duration: 200ms;
+          transition-property: all;
+          transform: translate(120px);
+          // background-color: #f00;
+        }
+      }
+    }
+  }
+}
+
+.priceTable{
+  table{
+    border-collapse: collapse;
+    min-width: 350px;
+
+    th,td{
+      white-space: nowrap;
+      border: 1px solid #666;
+      padding: 1rem;
+    }
+
+    td:first-child{
+      font-weight: bold;
+    }
+  }
+}
+
+.blog{
+  .v-card {
+    transition: opacity .4s ease-in-out;
+    border:solid .1rem #FFC400;
+    padding: 1rem;
+  }
+  
+  .blog-category{
+    padding: 0 1rem 1rem 1rem;
+    font-size: 0.25rem;
+  }
+
+  .blog-title{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 1rem .25rem 1rem;
+  }
+  
+  .blog-text{
+    color: #444;
+    font-size: .75rem;
+  }
+
+  .card-link{
+    text-decoration: none;
+    padding: 0 8px;
+    color: #fff;
+    margin: 0 0 0 auto;
+  }
+
+  .card-link:hover{
+    color: #ffc400;
+  }
+}
