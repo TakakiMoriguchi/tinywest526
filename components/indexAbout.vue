@@ -20,7 +20,7 @@
                 最高品質のLCD/OLEDパネルを入荷し、発色、タッチ感も純正同等に良好です。また工場では何度もテストを重ねることによって動作の保証がされており、安心してお使い頂けます。
               </v-card-text>
               <v-card-actions class="d-flex align-right">
-                <NuxtLink to="#" class="card-link">
+                <NuxtLink to="about_display" class="card-link">
                   LearnMore&nbsp;<v-icon small>mdi-arrow-right</v-icon>
                   <hr />
                 </NuxtLink>

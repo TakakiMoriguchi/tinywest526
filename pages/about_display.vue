@@ -1,25 +1,17 @@
 <template>
   <main>
     <v-container
-      class="jumboTron-index"
+      class="jumboTron-display"
       fluid
     >
       <v-container class="text-center" fill-height>
-        <div class="mx-auto">
-          <h2>データそのまま！<br />最短30分で即日修理。</h2>
-          <h5>予約制（in work and place）</h5>
-          <v-btn color="deep-purple lighten-2 mt-2" depressed>今すぐ電話する！</v-btn>
-        </div>
+        Display
       </v-container>
     </v-container>
 
     <section class="container">
-      <index-about />
-      <index-blog />
-      <index-price />
-      <index-map />
+      this is display page
     </section>
-
 
     <v-footer dark padless>
       <v-card

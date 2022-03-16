@@ -53,9 +53,16 @@
   }
 }
 
-.jumboTron{
+.jumboTron-index{
   padding: 0;
   background-image: url('/images/jumbotron.jpg');
+  background-position: center;
+  height: 100vh;
+}
+
+.jumboTron-display{
+  padding: 0;
+  background-image: url('/images/about_display.jpg');
   background-position: center;
   height: 100vh;
 }
