@@ -44,7 +44,7 @@
                 全て電気用品安全法（PSE）に合格したパーツで、ゲームや動画編集などを行うスマホヘビーユーザーには希望により大容量バッテリーも準備することができます。
               </v-card-text>
               <v-card-actions class="d-flex align-right">
-                <NuxtLink to="#" class="card-link">
+                <NuxtLink to="about_battery" class="card-link">
                   LearnMore&nbsp;<v-icon small>mdi-arrow-right</v-icon>
                   <hr />
                 </NuxtLink>
@@ -62,11 +62,11 @@
             class="d-flex align-end"
           >
             <div class="card-content">
-              <v-card-title>Hydrogel Film</v-card-title>
-              <v-card-subtitle>Best Choice Screen Protection</v-card-subtitle>
+              <v-card-title>Hydrogel Film / Others</v-card-title>
+              <v-card-subtitle>Best Choice Screen Protection / Others</v-card-subtitle>
               <v-card-text>保護フィルムはガラス製・ペット製など様々な素材がある中、飛びぬけて衝撃に強いのがハイドロゲルフィルム。硬さで保護するのではなく、柔らかさで保護します。</v-card-text>
               <v-card-actions class="d-flex align-right">
-                <NuxtLink to="#" class="card-link">
+                <NuxtLink to="about_others" class="card-link">
                   LearnMore&nbsp;<v-icon small>mdi-arrow-right</v-icon>
                   <hr />
                 </NuxtLink>

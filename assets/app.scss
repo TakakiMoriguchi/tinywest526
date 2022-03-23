@@ -62,9 +62,50 @@
 
 .jumboTron-display{
   padding: 0;
-  background-image: url('/images/about_display.jpg');
+  background-image: url('/images/about_display_header.jpg');
   background-position: center;
   height: 100vh;
+
+  .about-title{
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 2px #000;
+  }
+}
+
+.jumboTron-battery{
+  padding: 0;
+  background-image: url('/images/about_battery_header.jpg');
+  background-position: center;
+  height: 100vh;
+
+  .about-title{
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 2px #000;
+  }
+}
+
+.jumboTron-others{
+  padding: 0;
+  background-image: url('/images/about_others_header.jpg');
+  background-position: center;
+  height: 100vh;
+
+  .about-title{
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 2px #000;
+  }
+}
+
+.jumboTron-price{
+  padding: 0;
+  background-image: url('/images/price_header.jpg');
+  background-position: center;
+  height: 100vh;
+
+  .about-title{
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 2px #000;
+  }
 }
 
 .sub_contents_title {
@@ -177,4 +218,62 @@
   .card-link:hover{
     color: #ffc400;
   }
+}
+
+.about_page{
+  h1 {
+    display: inline;
+    border-bottom: 1px solid #ccc;
+    border-width: auto;
+  }
+
+  .about_description{
+    line-height: 1.75rem;
+
+    h4{
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    p{
+      font-size: .9rem;
+      margin-bottom: 3rem;
+      padding: 1rem;
+    }
+
+    table{
+      border: 1px solid #bbb;
+      
+      th,td{
+        border: 1px solid #bbb;
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+.blog-contents{
+  @media screen and (min-width: 480px){
+    padding: 0 10rem;
+  }
+
+  @media screen and (max-width: 479px){
+    padding: 0 1rem;
+  }
+
+  .blog-title{
+    margin: 3rem 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ffc400;
+    
+    h2{
+      margin-bottom: 2rem;
+    }
+
+    .blog-subtitle{
+      font-size: 1rem;
+      color: #666;
+    }
+  }
+
 }

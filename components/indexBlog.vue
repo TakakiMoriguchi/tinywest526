@@ -21,7 +21,7 @@
             <p>{{ textFormat(val.content) }}</p>
           </v-card-text>
           <v-card-actions>
-            <NuxtLink to="#" class="card-link">Read More...</NuxtLink>
+            <NuxtLink :to="'latest/' + val.id" class="card-link">Read More...</NuxtLink>
           </v-card-actions>
         </v-card>
       </v-col>

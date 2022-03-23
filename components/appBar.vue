@@ -40,7 +40,7 @@
               <v-list-item-title class="aboutChild">BATTERY</v-list-item-title>
             </v-list-item-content>
             <v-list-item-content>
-              <v-list-item-title class="aboutChild">HydrogelFilm</v-list-item-title>
+              <v-list-item-title class="aboutChild">HydrogelFilm / Others</v-list-item-title>
             </v-list-item-content>
           </v-list-group>
           <v-list-item>

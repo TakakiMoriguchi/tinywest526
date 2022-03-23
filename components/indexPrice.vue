@@ -87,7 +87,7 @@
 
 
     <div class="text-center pa-5">
-      <v-btn color="deep-purple accent-5">Learn More</v-btn>
+      <v-btn href="price" color="deep-purple accent-5">Learn More</v-btn>
     </div>
 
   </div>
