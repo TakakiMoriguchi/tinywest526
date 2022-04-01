@@ -19,7 +19,7 @@
             <th>Version</th>
             <th>Display</th>
             <th>Battery</th>
-          <tr>
+          </tr>
         </thead>
         <tbody>
           <tr>
@@ -88,7 +88,7 @@
             <th>Brand/Version</th>
             <th>Display</th>
             <th>Battery</th>
-          <tr>
+          </tr>
         </thead>
         <tbody>
           <tr>
