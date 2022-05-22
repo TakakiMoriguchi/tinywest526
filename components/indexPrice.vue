@@ -41,7 +41,6 @@
             <td>￥&nbsp;ASK</td>
             <td>￥&nbsp;ASK</td>
           </tr>
-          <tr></tr>
         </tbody>
       </table>
 

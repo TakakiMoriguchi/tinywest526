@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="sub_contents_title">
+    <div class="sub_contents_title" id="index_latest">
       LATEST
     </div>
 

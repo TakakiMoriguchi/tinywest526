@@ -10,10 +10,13 @@
       </v-container>
     </v-container>
 
-    <section class="container">
-      <h3>iphone</h3>
-
-      <table>
+    <section class="row d-flex justify-center priceTable mb-5">
+      <table class="mr-lg-2 mb-3">
+        <thead>
+          <th colspan="3">
+            iphone
+          </th>
+        </thead>
         <thead>
           <tr>
             <th>Version</th>
@@ -29,12 +32,12 @@
           </tr>
           <tr>
             <td>iphone 11pro max</td>
-            <td>22,500(LCD)<br />35,000(OLED)</td>
+            <td>22,500(LCD)<br>35,000(OLED)</td>
             <td>11,000</td>
           </tr>
           <tr>
             <td>iphone 11pro</td>
-            <td>18,500(LCD)<br />22,000(OLED)</td>
+            <td>18,500(LCD)<br>22,000(OLED)</td>
             <td>11,000</td>
           </tr>
           <tr>
@@ -44,17 +47,17 @@
           </tr>
           <tr>
             <td>iphone Xs max</td>
-            <td>16,500(LCD)<br />22,000(OLED)</td>
+            <td>16,500(LCD)<br>22,000(OLED)</td>
             <td>9,500</td>
           </tr>
           <tr>
             <td>iphone Xs</td>
-            <td>16,000(LCD)<br />18,500(OLED)</td>
+            <td>16,000(LCD)<br>18,500(OLED)</td>
             <td>9,000</td>
           </tr>
           <tr>
             <td>iphone X</td>
-            <td>15,500(LCD)<br />18,500(OLED)</td>
+            <td>15,500(LCD)<br>18,500(OLED)</td>
             <td>8,500</td>
           </tr>
           <tr>
@@ -80,9 +83,12 @@
         </tbody>
       </table>
 
-      <h3>android</h3>
-
-      <table>
+      <table class="ml-lg-2 mb-3">
+        <thead>
+          <th colspan="3">
+            android
+          </th>
+        </thead>
         <thead>
           <tr>
             <th>Brand/Version</th>
@@ -143,8 +149,8 @@
           </tr>
         </tbody>
       </table>
-
     </section>
 
+    <global-footer />
   </main>
 </template>

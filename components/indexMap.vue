@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div class="sub_contents_title">
+    <div class="sub_contents_title" id="index_access">
       MAP
     </div>
 
@@ -12,7 +12,7 @@
     <div class="text-center pa-4">
 
       <h6 class="text-h6">営業時間：11:00 ～ 17:30<span class="subtitle-2">【予約制】</span></h6>
-      
+
       <p>
       〒659-0093 ​芦屋市船戸町5-26 マリアキャリーヌビル2F<br />
       <v-icon small>mdi-phone-classic</v-icon>&nbsp;{{ telNumber }}

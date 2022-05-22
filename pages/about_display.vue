@@ -49,7 +49,7 @@
             なぜなら明らかに発色・強度・画面の厚みが違うからです。<br />
             毎日何時間も使うものですし、多少値段は上がりますが、incell品を採用しています。<br />
           </p>
-          
+
           <h4><v-icon>mdi-tools</v-icon>&nbsp;androidのガラス割れについて</h4>
           <p>
             android製品はパーツの流通が乏しく、画面修理が出来るものは多くありません。<br />
@@ -100,25 +100,6 @@
       </v-row>
     </section>
 
-    <v-footer dark padless>
-      <v-card
-        flat
-        tile
-        class="white--text text-center"
-        style="width: 100% !important;"
-      >
-        <v-card-text>
-          <v-btn class="mx-4 white--text" href="https://www.instagram.com/tinywest526/" target="_blank" icon>
-            <v-icon size="24px">mdi-instagram</v-icon>
-          </v-btn>
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>tinyWEST</strong>
-        </v-card-text>
-      </v-card>
-    </v-footer>
+    <global-footer />
   </main>
 </template>

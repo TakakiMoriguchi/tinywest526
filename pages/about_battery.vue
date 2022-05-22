@@ -28,7 +28,7 @@
             バッテリーが膨らむと画面が浮き、最終的には画面が破損してしまいます。<br />
             隙間が見受けられる場合は早急にお申し付けください。
           </p>
-          
+
           <h4><v-icon>mdi-tools</v-icon>&nbsp;androidのバッテリー交換について</h4>
           <p>
             android製品は修理できるものが限られますので一度お問い合わせ下さい。
@@ -43,25 +43,6 @@
       </v-row>
     </section>
 
-    <v-footer dark padless>
-      <v-card
-        flat
-        tile
-        class="white--text text-center"
-        style="width: 100% !important;"
-      >
-        <v-card-text>
-          <v-btn class="mx-4 white--text" href="https://www.instagram.com/tinywest526/" target="_blank" icon>
-            <v-icon size="24px">mdi-instagram</v-icon>
-          </v-btn>
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>tinyWEST</strong>
-        </v-card-text>
-      </v-card>
-    </v-footer>
+    <global-footer />
   </main>
 </template>

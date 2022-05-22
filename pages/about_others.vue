@@ -43,7 +43,7 @@
           <p>
             iphone8以降はワイアレス充電に対応するため、背面がガラスに変更されましたが、これによって背面のガラスが割れてしまうケースも多く存在します。<br />
             この場合フレームごと交換になりますので、色や程度のご指定を承ることが出来ない場合があります。<br />
-            しかし、背面の色と元のボタンの色を組み合わせてオリジナリティを出すことも出来ますので、お気軽にご相談ください。           
+            しかし、背面の色と元のボタンの色を組み合わせてオリジナリティを出すことも出来ますので、お気軽にご相談ください。
           </p>
 
           <h4><v-icon>mdi-tools</v-icon>&nbsp;水没</h4>
@@ -63,25 +63,6 @@
       </v-row>
     </section>
 
-    <v-footer dark padless>
-      <v-card
-        flat
-        tile
-        class="white--text text-center"
-        style="width: 100% !important;"
-      >
-        <v-card-text>
-          <v-btn class="mx-4 white--text" href="https://www.instagram.com/tinywest526/" target="_blank" icon>
-            <v-icon size="24px">mdi-instagram</v-icon>
-          </v-btn>
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>tinyWEST</strong>
-        </v-card-text>
-      </v-card>
-    </v-footer>
+    <global-footer />
   </main>
 </template>
