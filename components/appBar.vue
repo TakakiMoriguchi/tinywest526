@@ -66,6 +66,11 @@
               <nuxt-link to="/latest/5l_j01l87xn">DISCLAIMER</nuxt-link>
             </v-list-item-title>
           </v-list-item>
+          <v-list-item>
+            <v-list-item-title>
+              <nuxt-link to="/form">FORM</nuxt-link>
+            </v-list-item-title>
+          </v-list-item>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

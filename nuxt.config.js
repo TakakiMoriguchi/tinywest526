@@ -7,14 +7,14 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - tinywest',
-    title: 'tinywest',
+    title: 'tinyWEST 芦屋のスマホ・iphone修理店',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: '兵庫県芦屋市にあるスマホ・iphone修理店でございます。良質なパーツを仕入れて提供しています。' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -81,5 +81,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  env: {
+    reCaptchaSiteKey: '6Le80hMgAAAAAMk_Dtzfcz_ki1vk8vFo23A532xb',
+    reCaptchaSecretKey: '6Le80hMgAAAAAIa4ufT12Xjz2wOhNe44PedmZPJq'
   }
 }

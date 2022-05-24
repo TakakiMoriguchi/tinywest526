@@ -14,8 +14,8 @@
 <script>
 import axios from 'axios'
 
-export default{
-  data(){
+export default {
+  data () {
     return {
       res: '',
       blogData: {
@@ -39,6 +39,5 @@ export default{
   },
 
 }
-
 
 </script>

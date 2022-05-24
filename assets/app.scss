@@ -88,42 +88,24 @@ a:hover{
 }
 
 .jumboTron-battery{
-  padding: 0;
+  @extend .jumboTron-display;
   background-image: url('/images/about_battery_header.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-
-  .about-title{
-    padding-bottom: 100px;
-    text-shadow: 1px 1px 2px #000;
-  }
 }
 
 .jumboTron-others{
-  padding: 0;
+  @extend .jumboTron-display;
   background-image: url('/images/about_others_header.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-
-  .about-title{
-    padding-bottom: 100px;
-    text-shadow: 1px 1px 2px #000;
-  }
 }
 
 .jumboTron-price{
-  padding: 0;
+  @extend .jumboTron-display;
   background-image: url('/images/price_header.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
+}
 
-  .about-title{
-    padding-bottom: 100px;
-    text-shadow: 1px 1px 2px #000;
-  }
+.jumboTron-form{
+  @extend .jumboTron-display;
+  background-image: url('/images/form_header.jpg');
+  background-position: 30% 0%;
 }
 
 .sub_contents_title {
@@ -294,4 +276,21 @@ a:hover{
     }
   }
 
+}
+
+.form{
+  .v-text-field{
+    min-width: 320px;
+  }
+
+  @media screen and (min-width:768px){
+    .v-text-field{
+      min-width: 600px;
+    }
+  }
+
+  .action-area{
+    display: flex;
+    justify-content: end;
+  }
 }
