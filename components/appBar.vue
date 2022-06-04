@@ -6,12 +6,18 @@
     >
       <v-toolbar-title>
         <nuxt-link to="/" class="siteTitle">
-          <img src="/images/logo.svg" />
+          <img
+            src="/images/logo.svg"
+            alt="tinywest_logo"
+          />
           <h1>tinyWEST</h1>
         </nuxt-link>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-app-bar-nav-icon @click="drawer=true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        @click="drawer=true"
+        name="navbar"
+      ></v-app-bar-nav-icon>
     </v-app-bar>
 
     <v-navigation-drawer
@@ -24,7 +30,13 @@
         nav
         dense
       >
-        <div @click="drawer=false" class="closeButton"><span class="batsu"></span></div>
+        <div
+          @click="drawer=false"
+          class="closeButton"
+        >
+          <span class="batsu"></span>
+        </div>
+
         <v-list-item-group>
           <v-list-item>
             <v-list-item-title>

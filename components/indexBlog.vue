@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="sub_contents_title" id="index_latest">
+    <div id="index_latest" class="sub_contents_title">
       LATEST
     </div>
 
@@ -9,7 +9,9 @@
       <v-col
         v-for="val in cardData"
         :key="val.id"
-        cols="12" md="4" xs="10"
+        cols="12"
+        md="4"
+        xs="10"
       >
         <v-card outlined tile dark>
           <v-card-title class="blog-title">{{ val.title }}</v-card-title>
@@ -35,20 +37,14 @@ import axios from 'axios'
 
 export default {
 
-  data(){
+  data () {
     return {
       responseData: ''
     }
   },
 
-  mounted() {
-    axios.get('https://tinywest.microcms.io/api/v1/blog/', {headers: { 'X-MICROCMS-API-KEY': '36d4ea8b9b334e57837240c45e614e9fce6b' }}).then(response => (
-      this.responseData = response.data.contents
-    ))
-  },
-
   computed: {
-    cardData() {
+    cardData () {
       return this.responseData.slice(0,3)
     },
 
@@ -63,6 +59,13 @@ export default {
         return arg.substr(0, 10)
       }
     }
+  },
+
+  mounted () {
+    axios.get('https://tinywest.microcms.io/api/v1/blog/', {headers: { 'X-MICROCMS-API-KEY': '36d4ea8b9b334e57837240c45e614e9fce6b' }}).then(response => (
+      this.responseData = response.data.contents
+    ))
   }
+
 }
 </script>

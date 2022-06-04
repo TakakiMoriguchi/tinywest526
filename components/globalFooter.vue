@@ -20,3 +20,13 @@
     </v-card>
   </v-footer>
 </template>
+
+<script>
+import { mdiInstagram } from '@mdi/js'
+
+export default {
+  data: () => ({
+    svgPath: mdiInstagram
+  })
+}
+</script>

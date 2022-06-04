@@ -12,6 +12,7 @@
             height="572px"
             width="100%"
             class="d-flex align-end"
+            alt="about-display"
           >
             <div class="card-content">
               <v-card-title>Display</v-card-title>
@@ -36,6 +37,7 @@
             height="572px"
             width="100%"
             class="d-flex align-end"
+            alt="about-battery"
           >
             <div class="card-content">
               <v-card-title>Battery</v-card-title>
@@ -60,6 +62,7 @@
             height="572px"
             width="100%"
             class="d-flex align-end"
+            alt="about-hydrogel"
           >
             <div class="card-content">
               <v-card-title>Hydrogel Film / Others</v-card-title>

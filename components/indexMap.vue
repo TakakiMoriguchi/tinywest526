@@ -28,6 +28,8 @@
         <nuxt-link to="tel:0797249062">
           <v-icon small>mdi-phone-classic</v-icon>&nbsp;{{ telNumber }}<br>
         </nuxt-link>
+      </p>
+      <p>
         <nuxt-link to="/form">
           <v-icon small>mdi-format-list-text</v-icon>&nbsp;お問合せ
         </nuxt-link>
