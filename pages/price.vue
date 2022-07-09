@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td>iphone 11pro</td>
-            <td>18,500(LCD)<br>22,000(OLED)</td>
+            <td>18,500(LCD)<br>21,000(OLED)</td>
             <td>11,000</td>
           </tr>
           <tr>
@@ -47,12 +47,12 @@
           </tr>
           <tr>
             <td>iphone Xs max</td>
-            <td>16,500(LCD)<br>22,000(OLED)</td>
+            <td>16,500(LCD)<br>19,500(OLED)</td>
             <td>9,500</td>
           </tr>
           <tr>
             <td>iphone Xs</td>
-            <td>16,000(LCD)<br>18,500(OLED)</td>
+            <td>16,000(LCD)<br>19,500(OLED)</td>
             <td>9,000</td>
           </tr>
           <tr>
@@ -67,12 +67,12 @@
           </tr>
           <tr>
             <td>iphone 8/SE2</td>
-            <td>9,500</td>
+            <td>10,500</td>
             <td>6,000</td>
           </tr>
           <tr>
             <td>iphone 7plus</td>
-            <td>11,500</td>
+            <td>10,000</td>
             <td>6,000</td>
           </tr>
           <tr>
