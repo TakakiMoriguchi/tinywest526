@@ -80,10 +80,6 @@ export default {
     }
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
-
   env: {
     reCaptchaSiteKey: '6Le80hMgAAAAAMk_Dtzfcz_ki1vk8vFo23A532xb',
     reCaptchaSecretKey: '6Le80hMgAAAAAIa4ufT12Xjz2wOhNe44PedmZPJq'
