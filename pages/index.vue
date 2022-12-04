@@ -7,7 +7,7 @@
     >
       <v-container class="text-center" fill-height>
         <div class="mx-auto">
-          <h2>データそのまま！<br />最短30分で即日修理。</h2>
+          <h2>データそのまま！<br>最短30分で即日修理。</h2>
           <h5>予約制（in work and place）</h5>
 
           <v-btn color="deep-purple lighten-2 mt-2" depressed>
