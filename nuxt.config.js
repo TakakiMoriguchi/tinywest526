@@ -10,7 +10,7 @@ export default {
     titleTemplate: '%s - tinywest',
     title: 'tinyWEST 芦屋のスマホ・iphone修理店',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
