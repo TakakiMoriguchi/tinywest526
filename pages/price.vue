@@ -26,59 +26,59 @@
         </thead>
         <tbody>
           <tr>
-            <td>iphone 12</td>
+            <td>iphone 12以降</td>
             <td>ASK</td>
             <td>ASK</td>
           </tr>
           <tr>
             <td>iphone 11pro max</td>
-            <td>22,500(LCD)<br>35,000(OLED)</td>
+            <td>33,000(純正再生品)</td>
             <td>11,000</td>
           </tr>
           <tr>
             <td>iphone 11pro</td>
-            <td>18,500(LCD)<br>21,000(OLED)</td>
+            <td>23,000(純正再生品)</td>
             <td>11,000</td>
           </tr>
           <tr>
             <td>iphone 11</td>
-            <td>17,500</td>
+            <td>19,000(純正再生日)</td>
             <td>9,500</td>
           </tr>
           <tr>
             <td>iphone Xs max</td>
-            <td>16,500(LCD)<br>19,500(OLED)</td>
+            <td>23,000(純正再生品)</td>
             <td>9,500</td>
           </tr>
           <tr>
             <td>iphone Xs</td>
-            <td>16,000(LCD)<br>19,500(OLED)</td>
+            <td>17,500(純正再生品)</td>
             <td>9,000</td>
           </tr>
           <tr>
             <td>iphone X</td>
-            <td>15,500(LCD)<br>18,500(OLED)</td>
+            <td>17,500(純正再生品)</td>
             <td>8,500</td>
           </tr>
           <tr>
             <td>iphone 8plus</td>
-            <td>12,000</td>
+            <td>11,500(最上コピー品)</td>
             <td>6,500</td>
           </tr>
           <tr>
             <td>iphone 8/SE2</td>
-            <td>10,500</td>
+            <td>9,500(最上コピー品)</td>
             <td>6,000</td>
           </tr>
           <tr>
             <td>iphone 7plus</td>
-            <td>10,000</td>
+            <td>9,000(最上コピー品)</td>
             <td>6,000</td>
           </tr>
           <tr>
-            <td>iphone 6 - 7</td>
-            <td>8,000</td>
-            <td>4,500</td>
+            <td>iphone7 以前の機種</td>
+            <td>8,000(一律)</td>
+            <td>4,500(一律)</td>
           </tr>
         </tbody>
       </table>
