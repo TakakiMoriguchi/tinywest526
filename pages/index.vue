@@ -7,7 +7,7 @@
     >
       <v-container class="text-center" fill-height>
         <div class="mx-auto">
-          <h2>芦屋の小規模スマホ修理店<br /><small>５月末閉店予定</small></h2>
+          <h2>芦屋の小規模スマホ修理店</h2>
           <h5>予約制（in work and place）</h5>
 
           <v-btn color="deep-purple lighten-2 mt-2" depressed>
