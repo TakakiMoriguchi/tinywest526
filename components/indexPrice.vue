@@ -17,28 +17,28 @@
         </thead>
         <tbody>
           <tr>
-            <td>8</td>
-            <td>￥&nbsp;10,500</td>
-            <td>￥&nbsp;6,000</td>
-          </tr>
-          <tr>
-            <td>8p</td>
-            <td>￥&nbsp;12,000</td>
-            <td>￥&nbsp;6,500</td>
-          </tr>
-          <tr>
             <td>X</td>
-            <td>￥&nbsp;15,500&nbsp;</td>
+            <td>￥&nbsp;12,000&nbsp;</td>
             <td>￥&nbsp;8,500</td>
           </tr>
           <tr>
             <td>11</td>
-            <td>￥&nbsp;17,500</td>
+            <td>￥&nbsp;15,000</td>
             <td>￥&nbsp;9,500</td>
           </tr>
           <tr>
             <td>12</td>
-            <td>￥&nbsp;ASK</td>
+            <td>￥&nbsp;28,000</td>
+            <td>￥&nbsp;11,000</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>￥&nbsp;31,000</td>
+            <td>￥&nbsp;11,500</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>￥&nbsp;35,000</td>
             <td>￥&nbsp;ASK</td>
           </tr>
         </tbody>
