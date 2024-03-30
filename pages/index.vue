@@ -10,9 +10,10 @@
           <h2>芦屋の小規模スマホ修理店</h2>
           <h5>予約制（in work and place）</h5>
 
-          <v-btn color="deep-purple lighten-2 mt-2" depressed>
-            <a href="tel:07043192480">今すぐ電話する！</a>
-          </v-btn>
+          <div style="color: red;">
+            3月末をもって閉店いたしました。<br />
+            ご愛顧いただき、誠にありがとうございました。<br />
+          </div>
         </div>
       </v-container>
     </v-container>
