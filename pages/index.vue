@@ -10,7 +10,7 @@
           <h2>芦屋の小規模スマホ修理店</h2>
           <h5>予約制（in work and place）</h5>
 
-          <div style="color: red;">
+          <div style="color: red; background-color: white; font-weight: bold">
             3月末をもって閉店いたしました。<br />
             ご愛顧いただき、誠にありがとうございました。<br />
           </div>
